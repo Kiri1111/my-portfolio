@@ -1,0 +1,35 @@
+.work {
+    width: 350px;
+    border: 1px solid;
+    background-color: wheat;
+
+}
+
+
+.project {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.img {
+    width: 100%;
+    background-color: gray;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.titleProject {
+    background-color: gray;
+    margin: 5px;
+    width: 35%;
+}
+
+.description {
+    background-color: gray;
+    margin: 5px;
+}
