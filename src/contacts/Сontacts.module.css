@@ -1,0 +1,46 @@
+.contactsBlock {
+    background-color: rgba(196, 166, 112, 0.66);
+    height: 100vh;
+
+}
+
+.contactsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content {
+    border: 1px solid;
+    width: 80%;
+    /*height: 60%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    background-color: gray;
+}
+
+.form {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 60%;
+    height: 230px;
+}
+
+.but {
+    /*margin-top: 46px;*/
+    background-color: rgba(222, 138, 215, 0.71);
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    padding-top: 9px;
+    font-weight: bold;
+}

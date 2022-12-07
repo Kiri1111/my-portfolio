@@ -9,8 +9,9 @@ export const MyWork = (props: MyWorkPropsType) => {
     return (
         <div className={s.work}>
             <div className={s.project}>
-                <div>
-                    <div className={s.img}>img <button className={s.button}>смотреть</button></div>
+                <div className={s.imgContainer}>
+                    <div className={s.img}></div>
+                    <a className={s.button}>Посмотреть</a>
                 </div>
                 <div className={s.titleProject}>{props.title}</div>
                 <span className={s.description}>{props.description}</span>
