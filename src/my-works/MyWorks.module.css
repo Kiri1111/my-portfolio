@@ -1,13 +1,12 @@
 .myWorksBlock {
     min-height: 100vh;
-    background-color: #e1aa33;
+    background-color: midnightblue;
 }
 
 .myWorksContainer {
     flex-direction: column;
     justify-content: flex-start;
-
-
+flex-wrap: nowrap;
 }
 
 .title {
@@ -20,4 +19,9 @@
     justify-content: space-between;
     border: 1px solid;
     flex-wrap: wrap;
+}
+@media screen and (max-width:  894px){
+.myWorks{
+    justify-content: center;
+}
 }

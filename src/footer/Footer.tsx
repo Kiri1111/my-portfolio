@@ -14,7 +14,7 @@ export const Footer = () => {
                         <span className={s.divs}></span>
                         <span className={s.divs}></span>
                     </div>
-                    <h3> &copy; 2022 Все права защищены</h3>
+                    <h3> &copy; 2023 Все права защищены</h3>
                 </div>
             </div>
         </div>

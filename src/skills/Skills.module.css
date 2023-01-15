@@ -19,3 +19,9 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width:  644px){
+    .skills{
+        justify-content: center;
+    }
+}

@@ -1,6 +1,5 @@
 .contactsBlock {
     background-color: rgba(196, 166, 112, 0.66);
-    height: 100vh;
 
 }
 
@@ -29,18 +28,29 @@ h2 {
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid;
+    /*justify-content: flex-end;*/
+    border: 3px solid;
     width: 60%;
     height: 230px;
+    align-items: center;
+
 }
 
 .but {
-    /*margin-top: 46px;*/
+    /*margin-left: 166px;*/
+    /*padding-top: 16px;*/
     background-color: rgba(222, 138, 215, 0.71);
     width: 130px;
     height: 35px;
     text-align: center;
     padding-top: 9px;
     font-weight: bold;
+}
+.form input, .form textarea {
+    width: 100%;
+}
+@media screen and (max-width:  400px){
+    .form{
+        width:100%
+    }
 }
