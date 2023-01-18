@@ -1,6 +1,53 @@
 .nav {
-    border: 1px solid;
-    width: 300px;
+    width: 550px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.main {
+    color: #ffffff;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 25px;
+    text-decoration: none
+}
+
+.tech {
+    color: #ffffff;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 25px;
+    text-decoration: none
+}
+
+.projects {
+    color: #ffffff;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 25px;
+    text-decoration: none
+}
+
+.contacts {
+    color: #ffffff;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 25px;
+    text-decoration: none
+}
+
+.main:hover {
+    color: #EA4343
+}
+
+.tech:hover {
+    color: #EA4343
+
+}
+
+.projects:hover {
+    color: #EA4343
+
+}
+
+.contacts:hover {
+    color: #EA4343
+
 }

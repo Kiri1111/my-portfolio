@@ -1,0 +1,17 @@
+.title {
+    font-family: 'Calligraffitti', cursive;
+    margin: 0;
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+}
+.title::after {
+    position: absolute;
+    top: 120px;
+    background: #EA4343;
+    width: 400px;
+    height: 2px;
+    content: '';
+    left: 50%;
+    transform: translate(-50%, 50%);
+}

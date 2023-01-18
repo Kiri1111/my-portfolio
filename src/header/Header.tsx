@@ -5,6 +5,7 @@ import {Nav} from "../nav/Nav";
 export const Header = () => {
     return (
         <div className={s.header}>
+            <div className={s.myName}> Kirill Medvedev</div>
             <Nav/>
         </div>
     );
