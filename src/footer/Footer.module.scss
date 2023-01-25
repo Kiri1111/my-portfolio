@@ -1,0 +1,52 @@
+.footerBlock {
+  background: #333232;
+  font-family: 'Hind Madurai', sans-serif;
+  color: white;
+  font-size: 15px;
+
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .contant {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 60%;
+
+      .table {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        color: #726868;
+        @media screen and (max-width: 500px) {
+          justify-content: center;
+        }
+
+        .divTel {
+          padding: 5px;
+          border-radius: 10px;
+          background-color: lightgrey;
+          width: 20vh;
+          margin: 6px;
+
+          .icon {
+            width: 17px;
+          }
+
+          .divs {
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+

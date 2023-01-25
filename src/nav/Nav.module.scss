@@ -1,0 +1,50 @@
+.nav {
+  width: 50vh;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+
+  .main {
+    color: #ffffff;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 25px;
+    text-decoration: none;
+
+    &:hover {
+      color: #EA4343
+    }
+  }
+
+  .tech {
+    color: #ffffff;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 25px;
+    text-decoration: none;
+
+    &:hover {
+      color: #EA4343
+    }
+  }
+
+  .projects {
+    color: #ffffff;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 25px;
+    text-decoration: none;
+
+    &:hover {
+      color: #EA4343
+    }
+  }
+
+  .contacts {
+    color: #ffffff;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 25px;
+    text-decoration: none;
+
+    &:hover {
+      color: #EA4343
+    }
+  }
+}

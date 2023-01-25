@@ -1,17 +1,19 @@
 .title {
-    font-family: 'Calligraffitti', cursive;
-    margin: 0;
-    color: #fff;
-    font-size: 40px;
-    position: relative;
-}
-.title::after {
+  font-family: 'Calligraffitti', cursive;
+  margin: 0;
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+
+  &:after {
     position: absolute;
     top: 120px;
     background: #EA4343;
-    width: 400px;
+    width: 350px;
     height: 2px;
     content: '';
     left: 50%;
     transform: translate(-50%, 50%);
+  }
 }
+

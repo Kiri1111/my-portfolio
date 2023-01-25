@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Skills.module.css'
+import s from './Skills.module.scss'
 import styleContainer from "../common/styles/Container.module.css";
 import {Skill} from './skill/Skill';
 import reactI from '../assets/icons/react.png'
@@ -8,6 +8,7 @@ import restApiI from '../assets/icons/restApi.png'
 import axiosI from '../assets/icons/axios.png'
 import reduxI from '../assets/icons/redux.png'
 import javascriptI from '../assets/icons/javascript.png'
+import {Title} from "../common/components/title/Title";
 
 export const Skills = () => {
     const reactIcon = reactI
@@ -16,10 +17,11 @@ export const Skills = () => {
     const axios = axiosI
     const redux = reduxI
     const javaScript = javascriptI
+
     return (
         <div className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>My skills:</h2>
+                <Title text={'My skills :'}/>
                 <div className={s.skills}>
                     <Skill title={"React"}
                            icon={reactIcon}
@@ -41,7 +43,6 @@ export const Skills = () => {
                            description={'Axios is a library for making either HTTP requests in Node.js or XMLHttpRequests in the browser. It supports promises, which is new to ES6.'}/>
                 </div>
             </div>
-
         </div>
     );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Main.module.css'
+import s from './Main.module.scss'
 import styleContainer from './../common/styles/Container.module.css'
 import mainImage from "../assets/images/main.jpg";
 
@@ -11,19 +11,15 @@ export const Main = () => {
         <div className={s.mainBlock} style={mainBackground}>
             <div className={styleContainer.container}>
                 <div className={s.text}>
-                    
-                    <h1 className={s.f}>HI,</h1>
-                    <h1 className={s.d}>I`am<span className={s.f}> Kirill</span></h1>
-                    <span className={s.d}>Front End </span>
-                    <span className={s.f}>Developer</span>
+                    <h1 className={s.orangeText}>HI,</h1>
+                    <h1>I`am<span className={s.orangeText}> Kirill</span></h1>
+                    <span>Front End </span>
+                    <span className={s.orangeText}>Developer</span>
                     <div>
-                        <span className={s.d}>React Redux </span>
-                        <span className={s.f}>Developer</span>
+                        <span>React Redux </span>
+                        <span className={s.orangeText}>Developer</span>
                     </div>
                 </div>
-                {/*<div className={s.photo}>*/}
-                {/*    Photo*/}
-                {/*</div>*/}
             </div>
         </div>
     );

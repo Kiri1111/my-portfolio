@@ -1,0 +1,31 @@
+.mainBlock {
+  height: 100vh;
+  background-size: cover;
+
+  .text {
+    background: #252527;
+    opacity: 90%;
+    width: 65vh;
+    font-family: 'Calligraffitti', cursive;
+    padding-bottom: 50px;
+    padding-left: 130px;
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+    position: relative;
+    left: -130px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    //@media screen and (max-width: 548px) {
+    //  width: 100vh
+    //}
+
+    .orangeText {
+      color: #EA4343;
+    }
+  }
+}
+
+
+
+

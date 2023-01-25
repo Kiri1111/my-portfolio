@@ -1,10 +1,12 @@
 import React from 'react';
-import s from './Footer.module.css'
+import s from './Footer.module.scss'
 import styleContainer from "../common/styles/Container.module.css";
 import footerImg from "../assets/images/footer.png";
 import phone from '../assets/icons/phone.png'
 import address from '../assets/icons/address.png'
 import gitHubI from '../assets/icons/github.png'
+import linkedinI from '../assets/icons/linkedin.png'
+import telegramI from '../assets/icons/telegram.png'
 
 export const Footer = () => {
     const footer = {
@@ -13,6 +15,8 @@ export const Footer = () => {
     const telIcon = phone
     const addressIcon = address
     const gitHubIcon = gitHubI
+    const linkedinIcon = linkedinI
+    const telegramIcon = telegramI
     return (
         <div className={s.footerBlock} style={footer}>
             <div className={`${styleContainer.container} ${s.footerContainer}`}>
@@ -30,9 +34,21 @@ export const Footer = () => {
                             </div>
                         </div>
                         <div className={s.divTel}>
-                            <a href={'https://github.com/Kiri1111'}>
-                                <img alt={'icon'} className={s.icon} src={gitHubIcon}/> GitHub
-                            </a>
+                            <div>
+                                <a href={'https://github.com/Kiri1111'}>
+                                    <img alt={'icon'} className={s.icon} src={gitHubIcon}/> GitHub
+                                </a>
+                            </div>
+                            <div>
+                                <a href={'https://t.me/MedvedevKirill92'}>
+                                    <img alt={'icon'} className={s.icon} src={telegramIcon}/> Telegram
+                                </a>
+                            </div>
+                            <div>
+                                <a href={'https://www.linkedin.com/in/kirill-medvedev-a75893253/'}>
+                                    <img alt={'icon'} className={s.icon} src={linkedinIcon}/> Linkedin
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <h3> &copy; 2023 All rights reserved</h3>

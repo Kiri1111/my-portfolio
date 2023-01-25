@@ -1,10 +1,10 @@
 .distantWorkBlock {
   background: #EA4343;
+  min-height: 30vh;
 
   .distantWorkContainer {
     display: flex;
     flex-direction: column;
-    height: 200px;
     text-align: center;
 
     .title {

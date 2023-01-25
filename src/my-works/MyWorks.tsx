@@ -24,9 +24,7 @@ export const MyWorks = () => {
                     <MyWork style={social}
                             title={'Social network'}
                             description={'Find your friends. This is an Internet platform, a site that allows users registered on it to post information about themselves and communicate with each other, establishing social connections. '}/>
-
                 </div>
-
             </div>
         </div>
     );
