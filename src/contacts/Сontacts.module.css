@@ -1,6 +1,6 @@
 .contactsBlock {
-    background-color: rgba(196, 166, 112, 0.66);
-
+    background-color: #333232;
+    height: 80vh;
 }
 
 .contactsContainer {
@@ -11,15 +11,18 @@
 }
 
 .content {
-    border: 1px solid;
-    width: 80%;
-    /*height: 60%;*/
+    /*border: 10px solid;*/
+    width: 90%;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
+    color: #fff;
+    font-family: 'Calligraffitti', cursive;
+    font-size: 40px;
 
+}
 
 
 .form {
@@ -27,28 +30,61 @@
     display: flex;
     flex-direction: column;
     /*justify-content: flex-end;*/
-    border: 3px solid;
-    width: 60%;
-    height: 230px;
+    /*border: 3px solid;*/
+    width: 80%;
+    height: 40vh;
     align-items: center;
 
 }
 
-.but {
-    /*margin-left: 166px;*/
-    /*padding-top: 16px;*/
-    background-color: rgba(222, 138, 215, 0.71);
-    width: 130px;
-    height: 35px;
-    text-align: center;
-    padding-top: 9px;
-    font-weight: bold;
+.form::after {
+    position: relative;
+    top: -380px;
+    background: #EA4343;
+    width: 400px;
+    height: 2px;
+    content: '';
+    left: 199px;
+    transform: translate(-50%, 50%);
 }
+
+.button {
+    margin-top: 30px;
+    padding-top: 1px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    height: 30px;
+    text-align: center;
+    opacity: 80%;
+    font-size: 20px;
+}
+
+.button:hover {
+    width: 150px;
+    background-color: #EA4343;
+    height: 30px;
+    text-align: center;
+    opacity: 95%;
+}
+
+
 .form input, .form textarea {
     width: 100%;
+    background: lightgrey;
+    margin: 10px;
+    color: #000;
+    border: none;
+    border-radius: 5px;
 }
-@media screen and (max-width:  400px){
-    .form{
-        width:100%
+
+.form input {
+    height: 35px;
+
+}
+
+@media screen and (max-width: 400px) {
+    .form {
+        width: 100%
     }
 }

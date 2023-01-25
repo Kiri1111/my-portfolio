@@ -5,12 +5,14 @@
   margin-top: 15px;
   position: relative;
   z-index: 1;
+  margin-bottom: 20px;
 
   .project {
     display: flex;
     flex-direction: column;
     color: #fff;
     font-family: 'Calligraffitti', cursive;
+    //margin-bottom: 20px;
 
     .imgContainer {
       border-radius: 5px;
