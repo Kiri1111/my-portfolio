@@ -17,7 +17,6 @@ export const MyWork = (props: MyWorkPropsType) => {
                 <div className={s.titleProject}>{props.title}</div>
                 <span className={s.description}>{props.description}</span>
             </div>
-            <div></div>
         </div>
     );
 };

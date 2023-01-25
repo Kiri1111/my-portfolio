@@ -2,17 +2,43 @@ import React from 'react';
 import s from './Skills.module.css'
 import styleContainer from "../common/styles/Container.module.css";
 import {Skill} from './skill/Skill';
+import reactI from '../assets/icons/react.png'
+import typescriptI from '../assets/icons/typescript.png'
+import restApiI from '../assets/icons/restApi.png'
+import axiosI from '../assets/icons/axios.png'
+import reduxI from '../assets/icons/redux.png'
+import javascriptI from '../assets/icons/javascript.png'
 
 export const Skills = () => {
+    const reactIcon = reactI
+    const typeScriptIcon = typescriptI
+    const restApi = restApiI
+    const axios = axiosI
+    const redux = reduxI
+    const javaScript = javascriptI
     return (
         <div className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
-                <h2 className={s.title}>Мои навыки:</h2>
+                <h2 className={s.title}>My skills:</h2>
                 <div className={s.skills}>
                     <Skill title={"React"}
-                           description={'adыыыыыы ыывувуау dswrvv sb bdb dgn dg adwaawv faevev аув hicbwdo icbcib'}/>
-                    <Skill title={'Type script'} description={'wkjebckwbeicbiwbwecblwdhb'}/>
-                    <Skill title={'TDD'} description={'osacnacnanko'}/>
+                           icon={reactIcon}
+                           description={'React is a JavaScript library for building user interfaces.'}/>
+                    <Skill title={'Java script'}
+                           icon={javaScript}
+                           description={'JavaScript is a programming language that developers use to create interactive web pages.'}/>
+                    <Skill title={'Type script'}
+                           icon={typeScriptIcon}
+                           description={'TypeScript is a web development programming language based on JavaScript.'}/>
+                    <Skill title={'Redux'}
+                           icon={redux}
+                           description={'Redux is a library designed to manage application state. Most often used in conjunction with React for front-end development.'}/>
+                    <Skill title={'Rest API'}
+                           icon={restApi}
+                           description={'The Rest API is responsible for almost all interactions between server and client applications.'}/>
+                    <Skill title={'Axios'}
+                           icon={axios}
+                           description={'Axios is a library for making either HTTP requests in Node.js or XMLHttpRequests in the browser. It supports promises, which is new to ES6.'}/>
                 </div>
             </div>
 
