@@ -1,9 +1,11 @@
+@import './src/common/styles/sass/variables';
+
 .mainBlock {
   height: 100vh;
   background-size: cover;
 
   .text {
-    background: #252527;
+    background: $backGroundSecondColor;
     opacity: 90%;
     width: 65vh;
     font-family: 'Calligraffitti', cursive;
@@ -13,7 +15,7 @@
     border-top-right-radius: 45px;
     position: relative;
     left: -130px;
-    color: white;
+    color: $textColor;
     font-size: 30px;
     font-weight: bold;
     //@media screen and (max-width: 548px) {
@@ -21,7 +23,7 @@
     //}
 
     .orangeText {
-      color: #EA4343;
+      color: $primaryColor;
     }
   }
 }

@@ -1,6 +1,9 @@
+@import '../common/styles/sass/variables';
+
+
 .myWorksBlock {
   min-height: 100vh;
-  background: #252527;
+  background: $backGroundSecondColor;
 
   .myWorksContainer {
     flex-direction: column;
@@ -17,7 +20,7 @@
 
       &::after {
         position: absolute;
-        background: #EA4343;
+        background: $primaryColor;
         width: 80px;
         height: 150px;
         content: '';

@@ -1,50 +1,52 @@
+@import './src/common/styles/sass/variables';
+
 .nav {
   width: 50vh;
   display: flex;
   justify-content: space-around;
-  color: #fff;
+  color: $textColor;
 
   .main {
-    color: #ffffff;
+    color: $textColor;
     font-family: 'Calligraffitti', cursive;
     font-size: 25px;
     text-decoration: none;
 
     &:hover {
-      color: #EA4343
+      color: $primaryColor
     }
   }
 
   .tech {
-    color: #ffffff;
+    color: $textColor;
     font-family: 'Calligraffitti', cursive;
     font-size: 25px;
     text-decoration: none;
 
     &:hover {
-      color: #EA4343
+      color: $primaryColor
     }
   }
 
   .projects {
-    color: #ffffff;
+    color: $textColor;
     font-family: 'Calligraffitti', cursive;
     font-size: 25px;
     text-decoration: none;
 
     &:hover {
-      color: #EA4343
+      color: $primaryColor
     }
   }
 
   .contacts {
-    color: #ffffff;
+    color: $textColor;
     font-family: 'Calligraffitti', cursive;
     font-size: 25px;
     text-decoration: none;
 
     &:hover {
-      color: #EA4343
+      color: $primaryColor
     }
   }
 }

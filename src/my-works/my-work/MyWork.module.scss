@@ -1,3 +1,6 @@
+@import './src/common/styles/sass/variables';
+
+
 .work {
   width: 350px;
   background: #3C3C3C;
@@ -10,7 +13,7 @@
   .project {
     display: flex;
     flex-direction: column;
-    color: #fff;
+    color: $textColor;
     font-family: 'Calligraffitti', cursive;
 
     .imgContainer {
@@ -34,7 +37,7 @@
 
       .button:hover {
         width: 100px;
-        background-color: #EA4343;
+        background-color: $primaryColor;
         height: 30px;
         text-align: center;
         opacity: 95%;
@@ -49,7 +52,7 @@
 
     .description {
       margin: 5px;
-      color: #7d7789;
+      color: $secondTextColor;
       line-height: 1.7;
       font-family: 'Hind Madurai', sans-serif;
     }

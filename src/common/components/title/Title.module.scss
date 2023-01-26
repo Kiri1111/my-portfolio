@@ -1,14 +1,16 @@
+@import "./src/common/styles/sass/variables";
+
 .title {
   font-family: 'Calligraffitti', cursive;
   margin: 0;
-  color: #fff;
+  color: $textColor;
   font-size: 30px;
   position: relative;
 
   &:after {
     position: absolute;
     top: 120px;
-    background: #EA4343;
+    background: $primaryColor;
     width: 350px;
     height: 2px;
     content: '';

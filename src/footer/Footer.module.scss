@@ -1,7 +1,10 @@
+@import './src/common/styles/sass/variables';
+
+
 .footerBlock {
-  background: #333232;
+  background: $backGroundColor;;
   font-family: 'Hind Madurai', sans-serif;
-  color: white;
+  color: $textColor;
   font-size: 15px;
 
   .footerContainer {

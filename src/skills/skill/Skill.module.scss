@@ -1,3 +1,6 @@
+@import './src/common/styles/sass/variables';
+
+
 .skill {
   width: 250px;
   background-color: #3C3C3C;
@@ -7,7 +10,7 @@
   text-align: center;
   padding: 5px;
   box-sizing: border-box;
-  color: #7d7789;
+  color: $secondTextColor;
   border-radius: 5px;
   margin-top: 65px;
   margin-bottom: 20px;
@@ -23,7 +26,7 @@
 
   .title {
     font-family: 'Calligraffitti', cursive;
-    color: white;
+    color: $textColor;
     font-size: 23px;
     font-weight: 100;
   }
