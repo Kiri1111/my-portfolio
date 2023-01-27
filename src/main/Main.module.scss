@@ -19,9 +19,10 @@
     color: $textColor;
     font-size: 30px;
     font-weight: bold;
-    @media screen and (max-width: 615px) {
+    @media screen and (max-width: 700px) {
       width: 100vw;
       left: 0;
+      border-radius: 45px;
     }
 
     .orangeText {
