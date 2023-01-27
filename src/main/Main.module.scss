@@ -7,20 +7,22 @@
   .text {
     background: $backGroundSecondColor;
     opacity: 90%;
-    width: 65vh;
+    //width: 38vw;
     font-family: 'Calligraffitti', cursive;
     padding-bottom: 50px;
     padding-left: 130px;
+    padding-right: 130px;
     border-bottom-right-radius: 45px;
     border-top-right-radius: 45px;
     position: relative;
-    left: -130px;
+    left: -150px;
     color: $textColor;
     font-size: 30px;
     font-weight: bold;
-    //@media screen and (max-width: 548px) {
-    //  width: 100vh
-    //}
+    @media screen and (max-width: 615px) {
+      width: 100vw;
+      left: 0;
+    }
 
     .orangeText {
       color: $primaryColor;
