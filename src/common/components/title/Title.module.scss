@@ -9,10 +9,10 @@
 
   &:after {
     position: absolute;
-    top: 120px;
+    top: 100px;
     background: $primaryColor;
     width: 350px;
-    height: 2px;
+    height: 5px;
     content: '';
     left: 50%;
     transform: translate(-50%, 50%);

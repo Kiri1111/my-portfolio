@@ -8,12 +8,12 @@ export const Contacts = () => {
         <div className={s.contactsBlock}>
             <div className={`${styleContainer.container} ${s.contactsContainer}`}>
                 <div className={s.content}>
-                    <Title text={'Contacts :'}/>
+                    <Title text={'Contacts'}/>
                     <form className={s.form}>
                         <input type="text" placeholder={'Name'}/>
                         <input type="text" placeholder={'E-mail'}/>
                         <textarea rows={10} placeholder={'Your message'}/>
-                        <a className={s.button}>Send message</a>
+                        <button type={'submit'} className={s.button}>Send message</button>
                     </form>
                 </div>
             </div>

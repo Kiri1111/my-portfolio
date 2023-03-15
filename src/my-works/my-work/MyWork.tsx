@@ -11,7 +11,6 @@ export const MyWork = (props: MyWorkPropsType) => {
         <div className={s.work}>
             <div className={s.project}>
                 <div className={s.imgContainer} style={props.style}>
-                    {/*<div className={s.img}></div>*/}
                     <a className={s.button}>View more</a>
                 </div>
                 <div className={s.titleProject}>{props.title}</div>

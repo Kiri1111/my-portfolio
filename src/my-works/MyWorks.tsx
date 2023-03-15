@@ -16,7 +16,7 @@ export const MyWorks = () => {
     return (
         <div className={s.myWorksBlock}>
             <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
-                <Title text={'My projects :'}/>
+                <Title text={'My projects'}/>
                 <div className={s.myWorks}>
                     <MyWork style={todo}
                             title={'To Do List'}
