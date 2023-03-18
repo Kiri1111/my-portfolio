@@ -4,10 +4,17 @@
   height: 100vh;
   background-size: cover;
 
+  .particles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
   .text {
     background: $backGroundSecondColor;
     opacity: 90%;
-    //width: 38vw;
     font-family: 'Calligraffitti', cursive;
     padding-bottom: 50px;
     padding-left: 96px;
