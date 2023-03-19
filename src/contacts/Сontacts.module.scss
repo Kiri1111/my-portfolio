@@ -55,15 +55,15 @@
           //  left: 0px;
           //  z-index: -1;
           //  transition: all 0.2s;
-
+          //
           //}
 
           &:hover {
             width: 150px;
-            background-color: $primaryColor;
+            background-color: #cc1818;;
             height: 30px;
             text-align: center;
-            border: 2px #de1717 solid;
+            border: none;
 
             &::after {
               width: 100%;
