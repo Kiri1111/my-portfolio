@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Skills.module.scss'
 import styleContainer from "../common/styles/Container.module.css";
 import {Skill} from './skill/Skill';
-import reactI from '../assets/icons/react.png'
+import reactI from '../assets/icons/React.png'
 import typescriptI from '../assets/icons/typescript.png'
 import restApiI from '../assets/icons/restApi.png'
 import axiosI from '../assets/icons/axios.png'
