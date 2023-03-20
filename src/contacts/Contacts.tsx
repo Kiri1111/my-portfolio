@@ -5,14 +5,14 @@ import {Title} from "../common/components/title/Title";
 
 export const Contacts = () => {
     return (
-        <div className={s.contactsBlock}>
+        <div id={'Contacts'} className={s.contactsBlock}>
             <div className={`${styleContainer.container} ${s.contactsContainer}`}>
                 <div className={s.content}>
                     <Title text={'Contacts'}/>
                     <form className={s.form}>
-                        <input type="text" placeholder={'Name'}/>
-                        <input type="text" placeholder={'E-mail'}/>
-                        <textarea rows={10} placeholder={'Your message'}/>
+                        <input className={s.input} type="text" placeholder={'Name'}/>
+                        <input className={s.input} type="text" placeholder={'E-mail'}/>
+                        <textarea className={s.input} rows={10} placeholder={'Your message'}/>
                         <button type={'submit'} className={s.button}>Send message</button>
                     </form>
                 </div>

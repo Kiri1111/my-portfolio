@@ -12,7 +12,7 @@ export const Main = () => {
     }
 
     return (
-        <div className={s.mainBlock} style={mainBackground}>
+        <div id={'Main'} className={s.mainBlock} style={mainBackground}>
             <ParticleComponent/>
             <div className={styleContainer.container}>
                 <div className={s.text}>

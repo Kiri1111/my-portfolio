@@ -21,8 +21,7 @@ export const Skills = () => {
 
     return (
 
-        <div className={s.skillsBlock}>
-
+        <div id={'Skills'} className={s.skillsBlock}>
             <div className={`${styleContainer.container} ${s.skillsContainer}`}>
                 <Title text={'My skills'}/>
                 <div className={s.skills}>

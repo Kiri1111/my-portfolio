@@ -15,11 +15,11 @@ export const MyWorks = () => {
     const todo = {
         backgroundImage: `url(${todoImg})`
     }
-    const cards={
-        backgroundImage:`url(${cardsImg})`
+    const cards = {
+        backgroundImage: `url(${cardsImg})`
     }
     return (
-        <div className={s.myWorksBlock}>
+        <div id='MyWorks' className={s.myWorksBlock}>
             <div className={`${styleContainer.container} ${s.myWorksContainer}`}>
                 <Title text={'My projects'}/>
 

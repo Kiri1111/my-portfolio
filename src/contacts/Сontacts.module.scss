@@ -26,9 +26,20 @@
         flex-direction: column;
         width: 80%;
         height: 40vh;
+        position: relative;
         align-items: center;
+
+        .input {
+          border: none;
+          font-weight: bold;
+          font-size: 15px;
+          font-family: 'Hind Madurai', sans-serif;
+          padding: 10px;
+        }
+        
         @media screen and (max-width: 400px) {
           width: 110%
+
         }
 
         .button {
