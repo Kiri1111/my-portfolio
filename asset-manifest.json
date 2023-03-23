@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.cdb6d684.css",
-    "main.js": "/my_portfolio/static/js/main.d01bd6f7.js",
+    "main.css": "/my_portfolio/static/css/main.89d1c69d.css",
+    "main.js": "/my_portfolio/static/js/main.47bf3d80.js",
     "static/js/787.128fc6e9.chunk.js": "/my_portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/learn-by-cards.webp": "/my_portfolio/static/media/learn-by-cards.a05c35494ee667b982f9.webp",
     "static/media/main.jpg": "/my_portfolio/static/media/main.1135528ee3875537636a.jpg",
     "static/media/footer.png": "/my_portfolio/static/media/footer.851184cd0ebb7e1db20b.png",
     "static/media/social-networking.webp": "/my_portfolio/static/media/social-networking.be26cb3d2080dde2badc.webp",
     "static/media/todolist.jpg": "/my_portfolio/static/media/todolist.3c5b63b0399c42fc543d.jpg",
     "index.html": "/my_portfolio/index.html",
-    "main.cdb6d684.css.map": "/my_portfolio/static/css/main.cdb6d684.css.map",
-    "main.d01bd6f7.js.map": "/my_portfolio/static/js/main.d01bd6f7.js.map",
+    "main.89d1c69d.css.map": "/my_portfolio/static/css/main.89d1c69d.css.map",
+    "main.47bf3d80.js.map": "/my_portfolio/static/js/main.47bf3d80.js.map",
     "787.128fc6e9.chunk.js.map": "/my_portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdb6d684.css",
-    "static/js/main.d01bd6f7.js"
+    "static/css/main.89d1c69d.css",
+    "static/js/main.47bf3d80.js"
   ]
 }
