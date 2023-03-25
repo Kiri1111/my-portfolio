@@ -1,6 +1,7 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
 import {loadFull} from 'tsparticles'
+import s from './Particle.module.scss'
 
 export const ParticleComponent = () => {
     const particlesInit = async (main: any) => {
@@ -11,10 +12,13 @@ export const ParticleComponent = () => {
     return (
 
         <Particles
-            style={{position: 'absolute', top: '0', left: '0', right: '0', bottom: '0', zIndex: '-1'}}
+            canvasClassName={s.particles}
             init={particlesInit}
             options={
                 {
+                    "style": {
+                        position: "absolute !important"
+                    },
                     "particles": {
                         "number": {
                             "value": 70,
@@ -51,6 +55,7 @@ export const ParticleComponent = () => {
                                 "sync": false
                             }
                         },
+                        "position": "absolute",
                         "size": {
                             "value": 3,
                             "random": true,
