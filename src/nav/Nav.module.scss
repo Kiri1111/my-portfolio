@@ -5,48 +5,69 @@
   display: flex;
   justify-content: space-around;
   color: $textColor;
+  cursor: pointer;
 
-  .main {
+  a {
     color: $textColor;
     font-family: 'Calligraffitti', cursive;
     font-size: 25px;
     text-decoration: none;
+
 
     &:hover {
       color: $primaryColor
     }
   }
 
-  .tech {
-    color: $textColor;
-    font-family: 'Calligraffitti', cursive;
-    font-size: 25px;
-    text-decoration: none;
-
-    &:hover {
-      color: $primaryColor
-    }
+  .active {
+    color: $primaryColor
   }
 
-  .projects {
-    color: $textColor;
-    font-family: 'Calligraffitti', cursive;
-    font-size: 25px;
-    text-decoration: none;
-
-    &:hover {
-      color: $primaryColor
-    }
-  }
-
-  .contacts {
-    color: $textColor;
-    font-family: 'Calligraffitti', cursive;
-    font-size: 25px;
-    text-decoration: none;
-
-    &:hover {
-      color: $primaryColor
-    }
-  }
+  //.main {
+  //  color: $textColor;
+  //  font-family: 'Calligraffitti', cursive;
+  //  font-size: 25px;
+  //  text-decoration: none;
+  //
+  //  &:hover {
+  //    color: $primaryColor
+  //  }
+  //
+  //
+  //}
+  //
+  //.tech {
+  //  color: $textColor;
+  //  font-family: 'Calligraffitti', cursive;
+  //  font-size: 25px;
+  //  text-decoration: none;
+  //
+  //  &:hover {
+  //    color: $primaryColor
+  //  }
+  //
+  //
+  //}
+  //
+  //.projects {
+  //  color: $textColor;
+  //  font-family: 'Calligraffitti', cursive;
+  //  font-size: 25px;
+  //  text-decoration: none;
+  //
+  //  &:hover {
+  //    color: $primaryColor
+  //  }
+  //}
+  //
+  //.contacts {
+  //  color: $textColor;
+  //  font-family: 'Calligraffitti', cursive;
+  //  font-size: 25px;
+  //  text-decoration: none;
+  //
+  //  &:hover {
+  //    color: $primaryColor
+  //  }
+  //}
 }
