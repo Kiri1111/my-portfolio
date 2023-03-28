@@ -33,7 +33,7 @@ export const Footer = () => {
                                 </div>
                                 <div>
                                     <img alt={'icon'} className={s.icon} src={telIcon}/>
-                                    +375(44)722-00-42
+                                    +375(44) 722-00-42
                                 </div>
                             </div>
                             <div className={s.divTel}>
