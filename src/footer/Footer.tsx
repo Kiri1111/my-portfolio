@@ -29,7 +29,7 @@ export const Footer = () => {
                             <div className={s.divTel}>
                                 <div className={s.divs}>
                                     <img alt={'icon'} className={s.icon} src={addressIcon}/>
-                                    3A Goreckogo Street, Minsk, Belarus.
+                                    Minsk, Belarus.
                                 </div>
                                 <div>
                                     <img alt={'icon'} className={s.icon} src={telIcon}/>
