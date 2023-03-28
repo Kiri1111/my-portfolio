@@ -25,13 +25,15 @@ export const MyWorks = () => {
 
                 <div className={s.myWorks}>
                     <Fade>
-                        <MyWork style={todo}
+                        <MyWork href={'https://kiri1111.github.io/todoList/'} style={todo}
                                 title={'To Do List'}
                                 description={'Create todolist. It is a list of things you need to do or want to do. Traditionally, they are written on a piece of paper and organized in order of priority. When a task is completed, it is usually crossed off the list.'}/>
-                        <MyWork style={cards}
+                        <MyWork href={'https://kiri1111.github.io/project/'}
+                                style={cards}
                                 title={'Card training'}
                                 description={'Сards are a way to memorize information. Picture in electronic form with two working sides. On one is a word, a definition, a term, or some kind of phenomenon. On the other - an explanation to it, a translation or a brief essence. '}/>
-                        <MyWork style={social}
+                        <MyWork href={'https://Kiri1111.github.io/socialNetwork/'}
+                                style={social}
                                 title={'Social network'}
                                 description={'Find your friends. This is an Internet platform, a site that allows users registered on it to post information about themselves and communicate with each other, establishing social connections. '}/>
                     </Fade>
