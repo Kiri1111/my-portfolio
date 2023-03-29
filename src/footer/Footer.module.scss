@@ -7,6 +7,7 @@
   color: $textColor;
   font-size: 15px;
   position: relative;
+  z-index: 10;
 
   .footerContainer {
     display: flex;
