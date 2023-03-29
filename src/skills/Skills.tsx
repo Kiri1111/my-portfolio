@@ -11,6 +11,7 @@ import javascriptI from '../assets/icons/javascript.png'
 import {Title} from "../common/components/title/Title";
 import Fade from 'react-awesome-reveal';
 
+
 export const Skills = () => {
     const reactIcon = reactI
     const typeScriptIcon = typescriptI
@@ -26,6 +27,7 @@ export const Skills = () => {
                 <Title text={'My skills'}/>
                 <div className={s.skills}>
                     <Fade>
+
                         <Skill title={"React"}
                                icon={reactIcon}
                                description={'React is a JavaScript library for building user interfaces.'}/>

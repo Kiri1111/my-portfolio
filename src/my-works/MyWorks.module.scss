@@ -4,6 +4,7 @@
 .myWorksBlock {
   min-height: 100vh;
   background: $backGroundSecondColor;
+  position: relative;
 
   .myWorksContainer {
     flex-direction: column;

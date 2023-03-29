@@ -14,6 +14,7 @@ export const Main = () => {
     return (
         <div id={'Main'} className={s.mainBlock} style={mainBackground}>
             <ParticleComponent/>
+
             <div className={styleContainer.container}>
                 <div className={s.text}>
                     <Fade>
